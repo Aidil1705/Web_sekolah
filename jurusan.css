@@ -1,0 +1,13 @@
+.table{
+    align-items: center;
+}
+table tr td {
+    padding: 5px ;
+    align-items: center;
+}
+.btntambah{
+    margin-left: 900px;
+}
+.btn{
+margin-top: 200px;
+}

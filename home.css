@@ -1,0 +1,104 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+} 
+.head {
+    background-color: #72ebef;
+    width: 100pv;
+}
+.con{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.smk { 
+    text-indent: 5px;
+}
+.judul {
+    text-indent: 20px;
+}
+header {
+    
+}
+header h1 {
+    
+}
+header ul{
+    
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    
+    color: white;
+}
+
+   
+}
+.footer {
+    background-color: #72ebef;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 1350px;
+    
+    
+}
+footer ul li{
+    float: right;
+    padding: 10px 10px;
+    display: inline-block;
+    
+    
+}
+p{
+    position: relative;
+    top:5px;
+}
+.nav-menu {
+	display: flex;
+	list-style: none;
+}
+
+.nav-menu li a {
+	padding:20px;
+	display: inline-block;
+}
+
+.nav-menu li .dropdown {
+	
+	background-color: #72ebef;
+	list-style: none;
+	position: absolute;
+	display: none;
+    width: auto;
+    z-index: 1;
+}
+
+.nav-menu li:hover {
+	color: white;
+}
+
+.nav-menu li .dropdown a {
+	color: black;
+    
+    width: auto;
+}
+
+.nav-menu li .dropdown li:hover a {
+	color: white;
+}
+
+.nav-menu li:hover .dropdown {
+	display: grid;
+}
+
